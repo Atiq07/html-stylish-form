@@ -4,10 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Stylish Form</title>
   </head>
   <body>
-
+    <div class="container">
+      <h2> Say Hello!!!</h2>
+      <form method="post" action="submit.html">
+      <form class="grid">
+        <div>
+          <input type="text" name="" required="" placeholder="Enter your name">
+          <label for=""> Your Name </label>
+        </div>
+        <div>
+          <input type="text" name="" required="" placeholder="Enter your email address">
+          <label for=""> Email </label>
+        </div>
+        <div class="services">
+          Choose Services
+          <select name="services" id="">
+            <option value="">Phone services</option>
+            <option value="">technical services</option>
+            <option value="">physical services</option>
+            <option value="">online services</option>
+          </select>
+        </div>
+        <div class="budget">
+          Select budget
+          <select name="budget" id="" >
+            <option value="">economic budget</option>
+            <option value="">regular budget</option>
+            <option value="">standard budget</option>
+            <option value="">premium budget</option>
+            <option value="">Super budget</option>
+          </select>
+        </div>
+        <div>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <label for="">Message</label>
+        </div>
+        <div class="submit">
+          <button>Submit→ </button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
